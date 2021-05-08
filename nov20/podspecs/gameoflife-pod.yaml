@@ -4,12 +4,12 @@ kind: Pod
 metadata:
   name: gameoflife
 spec:
-  contaniners:
-    - image: maheswarimurali/gameoflife
-      name: gol
+  containers:
+    - name: gameoflife
+      image: maheswarimurali/gameoflife
       ports:
-        - contaninerPort: 8080
-          name: golhttpport
+        - name: golhttpport
+          containerPort: 8080
           protocol: TCP
           
 
