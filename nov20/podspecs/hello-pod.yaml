@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: gol-Pod
+spec:
+  containers:
+    - name: my-gol-cont
+      image: maheswarimurali/gameoflife
+      ports: 
+        - containerPort: 8080  
