@@ -1,0 +1,15 @@
+---
+apiVerstion: v1
+kind: Pod
+metadata:
+  name: gameoflife
+spec:
+  contaniners:
+    - image: maheswarimurali/gameoflife
+      name: gol
+      ports:
+        - contaninerPort: 8080
+          name: golhttpport
+          protocol: TCP
+          
+
