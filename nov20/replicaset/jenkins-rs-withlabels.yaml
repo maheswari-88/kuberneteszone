@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  namme: jenkins-rs-label
+  name: jenkins-rs-label
 spec:
   minReadySeconds: 30
   replicas: 2
