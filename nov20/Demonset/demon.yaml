@@ -18,8 +18,7 @@ spec:
           args:
             - /bin/sh
             - -c
-
-
+            - sleep 1d 
 
 
 
